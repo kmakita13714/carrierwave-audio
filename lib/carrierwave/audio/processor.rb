@@ -128,7 +128,7 @@ module CarrierWave
         end
 
         def sanitized_format format
-          supported_formats = [:mp3]
+          supported_formats = [:mp3, :ogg]
           if supported_formats.include?(format.to_sym)
             format.to_s
           else
