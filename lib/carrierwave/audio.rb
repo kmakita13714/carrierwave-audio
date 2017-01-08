@@ -41,7 +41,7 @@ module CarrierWave
         "audio/mpeg3"
       when :ogg
         "audio/ogg"
-      when :m4a
+      when :mp4
         "audio/mp4"
       end
     end
